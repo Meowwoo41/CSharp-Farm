@@ -1,0 +1,22 @@
+         h1,h2,h3,h4,h5,h6,ul,ol,li,body,p{
+            margin: 0;
+            padding: 0;
+        }
+        *{
+            font-family: 'cwTeXYen', sans-serif;
+            box-sizing: border-box;
+        }
+        .clearfix::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        img{
+/*            max-width: 100%;*/
+            width: 100%;
+            vertical-align: top;
+        }
+        p{
+            line-height: 2;
+        }
+

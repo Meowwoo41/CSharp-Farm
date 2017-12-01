@@ -1,0 +1,60 @@
+@media screen and (max-width:600px) {
+    /**********************************************************/
+    .containers {
+        width: 100%;
+    }
+    .wrapper {
+        width: 100%;
+/*        margin: auto;*/
+    }
+    .wrapper-s {
+        width: 90%;
+        margin: auto;
+    }
+    .col-3 {
+        width: 100%;
+        padding: 15px;
+/*        float: left;*/
+    }
+    .col-4 {
+        width: 100%;
+        padding: 15px;
+/*        float: left;*/
+    }
+    /*        -----------------網頁導引選項-----------------------        */
+
+        nav{
+            background-color:#ccf49e;
+            width: 100%;
+        }
+        .menu{
+            background-color: #ccf49e;
+            float: right;
+        }
+        .logo{
+            background-color: #ccf49e;
+            float: left;
+            padding: 20px;
+
+        }
+        .logo img{
+            width: 100px;
+            height: 100px;
+        }
+        nav li{
+            list-style: none;
+        }
+        nav .menu a{
+            display: block;
+            color: black;
+            text-decoration: none;
+            padding-left: 30px;
+            padding-right: 30px;
+            line-height: 120px;
+            transition:background-color 1s,color 1s ,font-size 1s;
+/*            transition: all,3s;*/
+            font-family: 'cwTeXYen', sans-serif;
+            font-size: 22px;
+        }
+
+}

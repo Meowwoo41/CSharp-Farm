@@ -1,0 +1,189 @@
+﻿@media (min-width:600px) {
+    * {
+        font-family: "fantasy", "DFKai-sb";
+    }
+
+    .clearfix {
+        display: block;
+        clear: both;
+        content: " ";
+    }
+
+    form a {
+        font-size: 30px;
+    }
+
+    .container-fluid {
+        background-color: rgba(74, 227, 98, 0.52);
+        /*外層背景顏色*/
+    }
+
+    .container1000 {
+        width: 1000px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .container500 {
+        width: 500px;
+        margin: auto;
+        position: relative;
+    }
+
+
+
+    .box a {
+        margin-left: 30px;
+        text-decoration: none;
+        color: aliceblue;
+        padding: 15px;
+        transition: all 0.5s;
+    }
+
+        .box a:hover {
+            font-size: 40px;
+            text-decoration: none;
+        }
+
+    #login {
+        width: 500px;
+        background-color: aliceblue;
+        padding: 20px;
+    }
+
+    #signup {
+        width: 500px;
+        background-color: aliceblue;
+        padding: 20px;
+    }
+
+    .button2 {
+        text-align: center;
+    }
+
+        .button2 button {
+            padding-left: calc(100%/5);
+            padding-right: calc(100%/5);
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+
+        .button2 form {
+            position: absolute;
+        }
+
+    #b1 {
+        transition: all 0.5s;
+        background-color: #a5a5a5;
+    }
+
+        #b1:hover {
+            background-color: green;
+            color: aliceblue;
+        }
+
+    #b2 {
+        transition: all 0.5s;
+        background-color: #a5a5a5;
+    }
+
+        #b2:hover {
+            background-color: green;
+            color: aliceblue;
+        }
+}
+
+/*-------------------------------------------------------*/
+
+@media (max-width:600px) {
+    * {
+        font-family: "fantasy", "DFKai-sb";
+    }
+
+    .clearfix {
+        display: block;
+        clear: both;
+        content: " ";
+    }
+
+    form a {
+        font-size: 30px;
+    }
+
+    .container-fluid {
+        background-color: rgba(74, 227, 98, 0.52);
+        /*外層背景顏色*/
+    }
+
+    .container1000 {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .container500 {
+        width: 90%;
+        margin: auto;
+        position: relative;
+    }
+
+    .box a {
+        margin-left: 30px;
+        text-decoration: none;
+        color: aliceblue;
+        padding: 15px;
+        transition: all 0.5s;
+    }
+
+        .box a:hover {
+            font-size: 40px;
+            text-decoration: none;
+        }
+
+    #login {
+        width: 90%;
+        background-color: aliceblue;
+        padding: 20px;
+    }
+
+    #signup {
+        width: 90%;
+        background-color: aliceblue;
+        padding: 20px;
+    }
+
+    .button2 {
+        /*    text-align: center;*/
+    }
+
+        .button2 button {
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+
+        .button2 form {
+            position: absolute;
+        }
+
+    #b1 {
+        transition: all 0.5s;
+        background-color: #a5a5a5;
+    }
+
+        #b1:hover {
+            background-color: green;
+            color: aliceblue;
+        }
+
+    #b2 {
+        transition: all 0.5s;
+        background-color: #a5a5a5;
+    }
+
+        #b2:hover {
+            background-color: green;
+            color: aliceblue;
+        }
+}
