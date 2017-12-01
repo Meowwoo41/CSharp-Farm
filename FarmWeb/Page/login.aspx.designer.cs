@@ -10,7 +10,7 @@
 namespace FarmWeb.Page {
     
     
-    public partial class member1 {
+    public partial class member {
         
         /// <summary>
         /// form1 控制項。

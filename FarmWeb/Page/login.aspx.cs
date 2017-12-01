@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace FarmWeb.Page
 {
-    public partial class member1 : System.Web.UI.Page
+    public partial class member : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
