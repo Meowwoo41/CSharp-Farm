@@ -29,17 +29,15 @@
 						<div class="agile-row">
 							<h1>會員登入</h1> 
 							<div class="login-agileits-top"> 	
-								<form action="#" method="post"> 
 									<p>帳號：</p>
-									<input type="text" class="name" name="user name" required=""/>
+                                    <asp:TextBox ID="txt_account" runat="server" CssClass="txt_login"></asp:TextBox>
 									<p>密碼：</p>
-									<input type="password" class="password" name="Password" required=""/>  
+                                    <asp:TextBox ID="txt_password" runat="server" TextMode="Password" CssClass="txt_login"></asp:TextBox>
 									<label class="anim">
 										<input type="checkbox" class="checkbox"/>
 										<span> 記住帳號</span> 
 									</label>   
-									<input type="submit" value="登入"/> 
-								</form> 	
+                                    <asp:Button ID="btn_login" runat="server" Text="登入" CssClass="btn_login" OnClick="btn_login_Click" />
 							</div> 
 							<div class="login-agileits-bottom wthree"> 
                                 <%--<h6><a href="#">未加入會員嗎?點我</a></h6>--%>

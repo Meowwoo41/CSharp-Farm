@@ -42,6 +42,39 @@ a {
     text-decoration: none;
 }
 
+.btn_login {
+    font-size: 22px;
+    color: #fff;
+    background: #E91E63;
+    border: 1px solid #E91E63;
+    outline: none;
+    cursor: pointer;
+    padding: .6em 1em;
+    -webkit-appearance: none;
+    width: 100%;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+}
+.txt_login {
+    outline: none;
+    font-size: 1em;
+    color: #000;
+    padding: .6em;
+    margin: 0;
+    width: 95%;
+    border: none;
+    -webkit-appearance: none;
+    display: block;
+    background: #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+}
 .txt-rt {
     text-align: right;
 }
@@ -136,7 +169,7 @@ h1 {
     border-radius: 15px;
 }
 
-.login-form input[type="text"], .login-form input[type="password"] {
+/*.login-form input[type="text"], .login-form input[type="password"] {
     outline: none;
     font-size: 1em;
     color: #000;
@@ -152,7 +185,7 @@ h1 {
     -o-border-radius: 2px;
     -ms-border-radius: 2px;
     border-radius: 2px;
-}
+}*/
 
 .login-form p {
     font-size: 22px;
@@ -220,7 +253,7 @@ input.checkbox:before {
     }
 }
 /*-- //checkbox --*/
-.login-form input[type="submit"] {
+/*.login-form input[type="submit"] {
     font-size: 22px;
     color: #fff;
     background: #E91E63;
@@ -245,9 +278,9 @@ input.checkbox:before {
         -moz-transition: 0.5s all;
         -o-transition: 0.5s all;
         -ms-transition: 0.5s all;
-    }
+    }*/
 
-.login-agileits-bottom {
+/*.login-agileits-bottom {
     margin-top: 3em;
     text-align: center;
 }
@@ -270,7 +303,7 @@ input.checkbox:before {
         }
              .login-agileits-bottom h6 a:hover {
                 color: #e91e63;
-            }
+            }*/
 
 .w3lsfooteragileits p {
     line-height: 1.8em;
