@@ -30,17 +30,10 @@ body {
             text-decoration: none;
         }
 
-input[type="button"], input[type="submit"] {
-    transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-}
-
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
+    font-family: 'cwTeXYen', sans-serif;
     /*font-family: 'Lato', sans-serif;*/
 }
 
@@ -60,6 +53,7 @@ li {
 
 label {
     margin: 0;
+    font-family: 'cwTeXYen', sans-serif;
     /*font-family: 'Josefin Sans', sans-serif;*/
     font-weight: 600;
 }
@@ -91,39 +85,6 @@ h1 {
     color: black;
 }
 
-label.w3ls-opt {
-    font-size: 15px;
-    font-weight: 500;
-    text-align: left;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    padding: 10px 0;
-    color: black;
-    /*font-family: 'Quicksand', sans-serif;*/
-}
-
-label.w3ls-opt {
-    width: 30%;
-    display: inline-block;
-    float: left;
-}
-
-span.w3ls-star {
-    font-size: 28px;
-    vertical-align: -5px;
-    color: #E91E63;
-}
-
-label.w3ls-opt1 {
-    font-size: 15px;
-    font-weight: 500;
-    text-align: center;
-    text-transform: lowercase;
-    letter-spacing: 2px;
-    color: black;
-    /*font-family: 'Quicksand', sans-serif;*/
-}
-
 input[type="text"] {
     font-size: 15px;
     font-weight: 500;
@@ -137,25 +98,83 @@ input[type="text"] {
     background: white;
     color: black;
     box-sizing: border-box;
+    font-family: 'cwTeXYen', sans-serif;
     /*font-family: 'Raleway', sans-serif;*/
 }
 
-input[type="email"] {
-    font-size: 15px;
-    font-weight: 500;
-    text-transform: capitalize;
-    letter-spacing: 1px;
+.tw_city {
+    padding: 10px;
+    margin-top: 10px;
+    font-size:22px;
+}
+
+.tw_area {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.address_end {
     width: 100%;
+}
+
+.lab_font {
+    color: #E91E63;
+    font-size: 28px;
+    font-family: 'cwTeXYen', sans-serif;
+}
+.txt_msg {
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 1px;
     padding: 10px;
     margin: 10px 0;
+    width: 100%;
     outline: none;
     border: 1px solid black;
     background: white;
     color: black;
     box-sizing: border-box;
-    /*font-family: 'Raleway', sans-serif;*/
 }
 
+.btn_send {
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    padding: 10px;
+    width: 30%;
+    margin: 10px auto 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    outline: none;
+    background: #ff4f81;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'cwTeXYen', sans-serif;
+    /*font-family: 'Raleway', sans-serif;*/
+}
+.chk_mail{
+    font-size:22px;
+}
+.chk_inf {
+    font-size: 22px;
+    color: red;
+}
+.chk_div{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.lab_error{
+    color:red;
+    font-size:22px;
+}
+
+footer{
+    text-align:center;
+    padding-top:100px;
+}
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: #fff;
 }
@@ -187,6 +206,7 @@ span.w3ls-input textarea {
     outline: none;
     min-height: 90px;
     resize: none;
+    font-family: 'cwTeXYen', sans-serif;
     /*font-family: 'Raleway', sans-serif;*/
 }
 
@@ -194,27 +214,14 @@ span.text:nth-child(1) {
     margin-right: 8px;
 }
 
-.text {
-    width: 49%;
-    float: left;
-}
 
 span.text:nth-child(3) {
     margin-right: 8px;
 }
 
-.text {
-    width: 49%;
-    float: left;
-}
 
 span.text:nth-child(5) {
     margin-right: 8px;
-}
-
-.text {
-    width: 49%;
-    float: left;
 }
 
 .w3ls-name {
@@ -237,68 +244,9 @@ span.text:nth-child(5) {
     width: 70%;
 }
 
-input[type="submit"] {
-    font-size: 15px;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    display: block;
-    padding: 10px;
-    width: 30%;
-    margin: 10px auto 0;
-    box-sizing: border-box;
-    border: 1px solid black;
-    outline: none;
-    background: #ff4f81;
-    color: #fff;
-    cursor: pointer;
-    /*font-family: 'Raleway', sans-serif;*/
-}
-
-span.w3ls-text.w3ls-name select {
-    font-size: 15px;
-    font-weight: 500;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    padding: 10px;
-    margin: 10px 0;
-    width: 100%;
-    outline: none;
-    border: 1px solid black;
-    background: white;
-    color: black;
-    box-sizing: border-box;
-    /*font-family: 'Raleway', sans-serif;*/
-}
-
-    span.w3ls-text.w3ls-name select option {
-        color: #000;
-    }
-
 .input {
     margin: 20px 0;
 }
-
-footer {
-    font-size: 15px;
-    font-weight: 500;
-    text-align: center;
-    text-transform: capitalize;
-    letter-spacing: 2px;
-    color: black;
-    margin: 40px 0 30px 0;
-    /*font-family: 'Lato', sans-serif;*/
-}
-
-    footer a {
-        font-size: 15px;
-        font-weight: 500;
-        text-align: center;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        color: #ff4f81;
-        /*font-family: 'Lato', sans-serif;*/
-    }
 /*--responsive--*/
 @media(max-width:1920px) {
 }
@@ -370,27 +318,11 @@ footer {
     .w3ls-main {
         width: 500px;
     }
-
-    label.w3ls-opt {
-        width: 33%;
-        display: inline-block;
-        float: left;
-    }
-
-    .w3ls-name {
-        display: inline-block;
-        width: 66%;
-    }
-
     .adderss {
         display: inline-block;
         width: 67%;
     }
 
-    .text {
-        width: 48%;
-        float: left;
-    }
 
     span.w3ls-input textarea {
         width: 99%;
@@ -404,11 +336,6 @@ footer {
 
     .w3ls-main {
         width: 480px;
-    }
-
-    footer {
-        font-size: 15px;
-        letter-spacing: 1px;
     }
 }
 
@@ -430,54 +357,15 @@ footer {
     .w3ls-main {
         width: 440px;
     }
-
-    footer {
-        font-size: 13px;
-        letter-spacing: 1px;
-    }
-
-    footer {
-        font-size: 14px;
-        letter-spacing: 1px;
-    }
 }
 
 @media(max-width:480px) {
     .w3ls-main {
         width: 335px;
     }
-
-    label.w3ls-opt {
-        width: 100%;
-        padding: 0px 0px;
-        display: inline-block;
-        float: left;
-    }
-
-    input[type="text"] {
-        margin: 3px 0;
-    }
-
-    .w3ls-name {
-        display: inline-block;
-        width: 100%;
-    }
-
     .adderss {
         display: inline-block;
         width: 100%;
-    }
-
-    span.w3ls-text.w3ls-name select {
-        margin: 3px 0px;
-    }
-
-    label.w3ls-opt1 {
-        letter-spacing: 1px;
-    }
-
-    input[type="submit"] {
-        width: 40%;
     }
 }
 
@@ -499,16 +387,8 @@ footer {
     .w3ls-main {
         width: 250px;
     }
-
-    .text {
-        width: 100%;
-        float: left;
-    }
-
-    input[type="submit"] {
-        width: 50%;
-    }
 }
+
 
 @media(max-width:375px) {
 }
