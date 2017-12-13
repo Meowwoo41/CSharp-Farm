@@ -22,7 +22,7 @@
                 <img src="../Logo/Logo-1.png" /></div>
             <div class="menu">
                 <ul style="padding-top:45px;">
-                    <li><a href="#" style="font-size:28px;"><span class="fa fa-heart"></span>商品介紹</a></li>
+                    <li><a href="shopping.aspx" style="font-size:28px;"><span class="fa fa-heart"></span>商品介紹</a></li>
                     <%--<li><a href="#"><span class="fa fa-shopping-cart"></span>購物平台</a></li>--%>
                     <li><a href="#" style="font-size:28px;"><span class="fa fa-star"></span>小農介紹</a></li>
                     <li><a href="#" style="font-size:28px;"><span class="fa fa-phone"></span>聯絡我</a></li>
@@ -69,10 +69,11 @@
                <div class="hotgoods">
                     <div class="card">
                         <div class="front">
-                            <img src="../images/hot1.png" />
+                            <img src="../商品圖片/果實類/小番茄.jpg" />
+                            <%--<img src="../images/hot1.png" />--%>
                         </div>
                         <div class="back">
-                           <h3>好吃大地瓜</h3>
+                           <h3>小番茄</h3>
                             <p>
                                 $30 TWD
                             </p>
@@ -80,10 +81,11 @@
                     </div>
                     <div class="card">
                         <div class="front">
-                            <img src="../images/hot2.png" />
+                            <img src="../商品圖片/花菜類/花椰菜.jpg" />
+                            <%--<img src="../images/hot2.png" />--%>
                         </div>
                         <div class="back">
-                            <h3>好吃大地瓜</h3>
+                            <h3>花椰菜</h3>
                             <p>
                                 $30 TWD
                             </p>
@@ -91,10 +93,11 @@
                     </div>
                     <div class="card">
                         <div class="front">
-                            <img src="../images/hot1.png" />
+                            <img src="../商品圖片/根莖類/芋頭.jpg" />
+                            <%--<img src="../images/hot1.png" />--%>
                         </div>
                         <div class="back">
-                           <h3>好吃大地瓜</h3>
+                           <h3>芋頭</h3>
                             <p>
                                 $30 TWD
                             </p>
@@ -102,10 +105,11 @@
                     </div>
                     <div class="card">
                         <div class="front">
-                            <img src="../images/hot2.png" />
+                            <img src="../商品圖片/葉菜類/菠菜.jpg" />
+                            <%--<img src="../images/hot2.png" />--%>
                         </div>
                         <div class="back">
-                            <h3>好吃大地瓜</h3>
+                            <h3>菠菜</h3>
                             <p>
                                 $30 TWD
                             </p>
@@ -113,10 +117,11 @@
                     </div>
                     <div class="card">
                         <div class="front">
-                            <img src="../images/hot1.png" />
+                            <img src="../商品圖片/葉菜類/高麗菜.jpg" />
+                            <%--<img src="../images/hot1.png" />--%>
                         </div>
                         <div class="back">
-                            <h3>好吃大地瓜</h3>
+                            <h3>高麗菜</h3>
                              <p>
                                 $30 TWD
                             </p>
@@ -251,7 +256,7 @@
              </div>
              
           </div>
-          <div id="Login"><a href="member.aspx"><span class="fa fa-sign-in fa-3x"><p>會員登入</p></span></a></div>
+          <div id="Login"><a href="login.aspx"><span class="fa fa-sign-in fa-3x"><p>會員登入</p></span></a></div>
           <footer class="containers">
              <div class="wrapper clearfix">
                  <div class="menu">

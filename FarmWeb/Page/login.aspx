@@ -43,13 +43,13 @@
 							</div> 
 							<div class="login-agileits-bottom wthree"> 
                                 <%--<h6><a href="#">未加入會員嗎?點我</a></h6>--%>
-								<h6><a href="#">忘記密碼了嗎?點我</a><a href="#">未加入會員嗎?點我</a></h6>
+								<h6><a href="#">忘記密碼了嗎?點我</a><a href="member.aspx">未加入會員嗎?點我</a></h6>
 							</div> 
 						</div>  
 					</div>   
 				</div>
 				<div class="w3lsfooteragileits">
-					<p> &copy; 2017 小農之家 </a></p>
+					<p> &copy; 2017 小農之家 </p>
 				</div> 
 			</div>   
 		</div>

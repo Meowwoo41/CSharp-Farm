@@ -60,6 +60,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
@@ -96,6 +97,26 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="商品圖片\果實類\小番茄.jpg" />
+    <Content Include="商品圖片\果實類\甜椒3.jpg" />
+    <Content Include="商品圖片\果實類\苦瓜.jpg" />
+    <Content Include="商品圖片\果實類\茄子.jpg" />
+    <Content Include="商品圖片\果實類\豌豆.jpg" />
+    <Content Include="商品圖片\根莖類\地瓜.jpeg" />
+    <Content Include="商品圖片\根莖類\洋蔥.jpg" />
+    <Content Include="商品圖片\根莖類\甜菜根.jpg" />
+    <Content Include="商品圖片\根莖類\紅蘿蔔.jpg" />
+    <Content Include="商品圖片\根莖類\芋頭.jpg" />
+    <Content Include="商品圖片\根莖類\馬鈴薯.jpg" />
+    <Content Include="商品圖片\花菜類\花椰菜.jpg" />
+    <Content Include="商品圖片\花菜類\金針花.jpg" />
+    <Content Include="商品圖片\花菜類\韭菜花.png" />
+    <Content Include="商品圖片\葉菜類\地瓜葉.bmp" />
+    <Content Include="商品圖片\葉菜類\小白菜.jpg" />
+    <Content Include="商品圖片\葉菜類\空心菜.jpg" />
+    <Content Include="商品圖片\葉菜類\菠菜.jpg" />
+    <Content Include="商品圖片\葉菜類\青江菜.jpg" />
+    <Content Include="商品圖片\葉菜類\高麗菜.jpg" />
     <None Include="NLog.xsd">
       <SubType>Designer</SubType>
     </None>
@@ -148,6 +169,7 @@
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -366,7 +366,7 @@
                 <div class="gotop">
                     <a href="index.aspx"><h2>Home</h2><span class="fa fa-home fa-5x"></span></a>
                 </div>
-                 <div id="Login"><a href="member.aspx"><span class="fa fa-sign-in fa-3x"><p>會員登入</p></span></a></div>
+                 <div id="Login"><a href="login.aspx"><span class="fa fa-sign-in fa-3x"><p>會員登入</p></span></a></div>
              </div>
           </footer>
 
